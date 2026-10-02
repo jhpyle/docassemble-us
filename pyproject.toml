@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools==80.9.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docassemble.us"
+version = "0.0.1"
+description = "A docassemble extension that provides helper functions specific to the United States"
+readme = "README.md"
+authors = [
+    { name = "Jonathan Pyle", email = "jhpyle@gmail.com" },
+]
+dependencies = ["us"]
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+
+[project.urls]
+Homepage = "https://docassemble.org"
+
+[tool.setuptools.packages.find]
+where = [
+    ".",
+]
