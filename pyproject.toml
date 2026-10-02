@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "docassemble.us"
-version = "0.0.1"
+version = "0.0.2"
 description = "A docassemble extension that provides helper functions specific to the United States"
 readme = "README.md"
 authors = [
